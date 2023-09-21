@@ -5,7 +5,7 @@ int itc_str(int a, int b, int c){
     double p;
     int S;
     if (a + b > c && a + c > b && b + c > a ){
-        p = (a + b + c) / 2;
+        p = (a + b + c) / 2.0;
         S = itc_sqrt((int)p * (p - a) * (p - b) * (p - c));
         return S;
         }
